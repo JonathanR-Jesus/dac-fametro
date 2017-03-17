@@ -1,6 +1,12 @@
 package com.dac.cliente;
+import com.dac.voo.*;
 
 public class PatoSelvagem extends Pato {
+	
+	public PatoSelvagem(){
+		
+		vooComp = new VooNao();
+	}
 	
 	@Override
 	public void exibir() {
@@ -11,7 +17,7 @@ public class PatoSelvagem extends Pato {
 	@Override
 	public void realizarVoo() {
 		// TODO Auto-generated method stub
-		System.out.println("eu nao posso voar");
+		vooComp.voar();
 	}
 
 }
