@@ -11,14 +11,14 @@ public class Simulador {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		Pato selvagem = new PatoSelvagem();
-		
+
 		selvagem.exibir();
 		selvagem.realizarVoo();
-		
+
 		Pato mandarin = new PatoMandarin();
-		
+
 		mandarin.exibir();
 		mandarin.realizarVoo();
 		mandarin.setVooComp(new VooComAsas());
