@@ -12,7 +12,7 @@ public class Main {
 		
 		MinhaAplicacao aplicacao = new MinhaAplicacao();
 		
-		aplicacao.criarDocumento(".doc");
+		aplicacao.criarDocumento(".ppt");
 	    aplicacao.novoDocumento();
 	    aplicacao.abirDocumento();
 		aplicacao.gravarDocumento();
